@@ -27,9 +27,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
-    "dev": "react-scripts start",
+    "dev": "PORT=3001 react-scripts start",
     "serve": "serve -s build",
     "preview:pm2": "pm2 start --name cryptoverse-admin npm -- run serve",
     "test": "react-scripts test",
