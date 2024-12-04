@@ -1,0 +1,479 @@
+.signin-bg {
+    width: 100%;
+    height: 100vh;
+    background-color: #0A0A0A;
+    overflow-y: hidden;
+}
+
+
+a{
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+
+.signin-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.signin-left-div {
+    border: 2px solid red;
+
+}
+
+
+
+.signin-left-div-img {
+    width: 50%;
+    height: 95vh;
+    /* object-fit: cover; */
+    padding: 20px 0px 20px 20px;
+}
+
+
+
+
+.signin-right-div {
+    /* border: 2px solid red; */
+    width: 50%;
+
+    /* display: flex;
+    flex-direction: column; */
+    align-self: center;
+}
+
+
+
+.signin-right-div-col {
+    /* border: 2px solid green; */
+    width: max-content;
+    margin-left: 4pc;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+}
+
+
+.signin-right-div-img {
+    width: 40%;
+}
+
+.signin-heading{
+    color: white;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.signin-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.inputfield-headings{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.inputfield-email {
+    background: rgba(28, 28, 28, 1);
+    border: 1px solid rgba(162, 161, 168, 0.2);
+    color: white;
+    margin-bottom: 20px;
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.inputfield-password-div{
+    background: rgba(28, 28, 28, 1);
+    border: 1px solid rgba(162, 161, 168, 0.2);
+    color: white;
+    width: auto;
+    height: 35px;
+    border-radius: 5px;
+
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+
+
+.inputfield-password-div input {
+    color: white;
+    width: 90%;
+    /* padding: 15px; */
+    /* margin-bottom: 20px; */
+    
+}
+
+.inputfield-password-div button{
+    float: right;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+.forgot-pass-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.remember-me-div{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.remember-me-div p{
+    color: white;
+    font-size: 15px;
+}
+
+.css-20bmp1-MuiSvgIcon-root {
+    fill: white!important;
+}
+
+.css-1y5vrnu-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+    color: white!important;
+}
+
+
+
+
+.forgotpass-para{
+    color: white;
+    font-size: 15px;
+    align-self: center;
+}
+
+
+
+
+.Signin-btn {
+    position: relative;
+    background-image: linear-gradient(to right, #ff7357, #ff2957);
+    color: white;
+    border: none;
+    padding: 13px 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    overflow: hidden; /* To contain the pseudo-element */
+    transition: color 0.3s ease; /* You can transition other properties like color */
+}
+
+.Signin-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #ff2957, #ff7357); /* Hover gradient */
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Hidden by default */
+    z-index: 0; /* Behind the content */
+}
+
+.Signin-btn:hover::before {
+    opacity: 1; /* Show the hover gradient */
+}
+
+.Signin-btn span {
+    position: relative;
+    z-index: 1; /* Ensure the text stays above the pseudo-element */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.forgotPass-back{
+    color: white;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5pc;
+}
+
+
+.forgotPass-heading{
+    color: white;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.forgotPass-para{
+    color: white;
+    font-family: "Readex Pro";
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 2pc;
+}
+
+
+.inputfield-forgotPass {
+    background: rgba(28, 28, 28, 1);
+    border: 1px solid rgba(162, 161, 168, 0.2);
+    color: white;
+    margin-bottom: 10px;
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inputfield-resetPassword-div{
+    background: rgba(28, 28, 28, 1);
+    border: 1px solid rgba(162, 161, 168, 0.2);
+    color: white;
+    width: auto;
+    height: 35px;
+    border-radius: 5px;
+
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 10px;
+
+    margin-bottom: 20px;
+}
+
+
+
+.inputfield-resetPassword-div input {
+    color: white;
+    width: 90%;
+    /* padding: 15px; */
+    /* margin-bottom: 20px; */
+    
+}
+
+.inputfield-resetPassword-div a{
+    float: right;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.otp-input-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.Otp-input-code {
+    background: rgba(28, 28, 28, 1);
+    border: 1px solid rgba(162, 161, 168, 0.2);
+    color: white;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 25px;
+    
+}
+
+
+
+
+
+.passUpdated{
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(103, 103, 103, 0.8);
+
+   
+   display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+   z-index: 10;
+}
+
+
+.passUpdated div{
+    color: aliceblue;
+    background: rgba(17, 24, 39, 1);
+    text-align: center;
+    width: 30%;
+    padding: 25px;
+    border-radius: 12px;
+
+}
+
+.passUpdated p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.updated-btn {
+    position: relative;
+    background-image: linear-gradient(to right, #ff7357, #ff2957);
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    overflow: hidden; /* To contain the pseudo-element */
+    transition: color 0.3s ease; /* You can transition other properties like color */
+}
+
+.updated-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #ff2957, #ff7357); /* Hover gradient */
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Hidden by default */
+    border-radius: 20px;
+    z-index: 0; /* Behind the content */
+}
+
+.updated-btn:hover::before {
+    opacity: 1; /* Show the hover gradient */
+    border-radius: 20px;
+}
+
+.updated-btn span {
+    position: relative;
+    z-index: 1; /* Ensure the text stays above the pseudo-element */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .signin-bg {
+        width: 100%;
+        height: 110vh;
+        overflow-y: scroll;
+    }
+
+    .signin-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .signin-left-div-img {
+        width: 85%;
+        height: auto;
+        padding: 20px 0px 0px 0px;
+      }
+      .signin-right-div {
+        width: 100%;
+       
+      }
+
+      .signin-right-div-img {
+        display: none;
+      }
+
+      .signin-right-div-col {
+      margin-top: 20px;
+        margin-left: 25px;
+        width: 85%;
+      }
+
+      .forgotPass-back {
+      
+        margin-bottom: 1.8pc;
+      }
+
+      .forgotPass-heading {
+        margin-bottom: 10px;
+      }
+
+      .passUpdated div {
+        width: 80%;
+        padding: 25px;
+        border-radius: 12px;
+      }
+
+
+      .passUpdated p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+      }
+
+
+      .Signin-btn {
+        margin-bottom: 20px;
+      }
+
+
+      .passUpdated{
+       
+        height: 110vh;
+      
+    }
+    
+}

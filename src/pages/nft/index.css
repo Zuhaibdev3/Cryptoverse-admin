@@ -1,0 +1,76 @@
+.nft-card {
+  border: 1.1px solid #f2f2f280;
+  border-radius: 13px;
+  padding: 10px;
+}
+.nft-card > img {
+  width: 100%;
+}
+.nft-card-title {
+  color: #ffffff;
+  font-size: 19.75px;
+  font-weight: 400;
+  margin: 15px;
+}
+.nft-card-eth-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 15px;
+}
+.nft-card-eth-main > p {
+  color: #838383;
+  font-family: "Inter";
+  font-size: 13.16px;
+  font-weight: 500;
+  line-height: 19.15px;
+  text-align: right;
+}
+.nft-card-eth-main > div {
+  display: flex;
+  align-items: center;
+}
+.nft-card-eth-main > div > p {
+  color: #00ac4f;
+  font-family: "Inter";
+  font-size: 10.97px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.nft-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-width: 1.6px;
+  border-top-style: solid;
+  border-top-color: #f4f4f4;
+  margin:  15px;
+  padding-top: 15px;
+}
+.timer-box {
+  background-color: #ffffff;
+  height: 29px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+}
+.timer-box > p {
+  background: -webkit-linear-gradient(#ff2957, #ff7357) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-family: "Inter";
+  font-size: 10.97px;
+  font-weight: 700;
+}
+.nft-buy-btn {
+  background-color: transparent !important;
+  padding: 0px !important;
+  background: -webkit-linear-gradient(#ff2957, #ff7357) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  font-family: "Inter" !important;
+  font-size: 15.36px !important;
+  font-weight: 500 !important;
+}

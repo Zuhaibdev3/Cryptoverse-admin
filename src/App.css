@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Readex Pro";
+}
+body {
+  background-color: #080808;
+}
+input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
